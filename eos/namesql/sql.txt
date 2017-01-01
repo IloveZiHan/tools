@@ -1,0 +1,17 @@
+Select t.ID,
+       t.CODE,
+       t.SERVICE_STATION_NAME,
+       t.STATUS,
+       t.SERVICE_STATION_CODE,
+       t.SERVICE_STATION_ADDR,
+       t.SERVICE_STATION_OWNER,
+       t.BIN_RACK,
+       t.SERVICE_STATION_CONTACT,
+       t.LOGISTICS_COMPANY,
+       t.LOGISTICS_TYPE,
+       t.LOGISTICS_NO,
+       t.APPLICANT_NAME,
+       t.CREATE_TIME,
+       t.APPLICANT_ID,
+       t.LAST_UPDATE_TIME
+  From CISS_MATERIAL_BNBLP_HX_SQD t

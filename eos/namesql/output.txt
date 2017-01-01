@@ -1,0 +1,40 @@
+CissMaterialQcissMaterialBnblpHxSqdIn
+CissMaterialQcissMaterialBnblpHxSqdOut
+---namingSql---
+SELECT T.ID AS id,
+       T.CODE AS code,
+       T.SERVICE_STATION_NAME AS serviceStationName,
+       T.STATUS AS status,
+       T.SERVICE_STATION_CODE AS serviceStationCode,
+       T.SERVICE_STATION_ADDR AS serviceStationAddr,
+       T.SERVICE_STATION_OWNER AS serviceStationOwner,
+       T.BIN_RACK AS binRack,
+       T.SERVICE_STATION_CONTACT AS serviceStationContact,
+       T.LOGISTICS_COMPANY AS logisticsCompany,
+       T.LOGISTICS_TYPE AS logisticsType,
+       T.LOGISTICS_NO AS logisticsNo,
+       T.APPLICANT_NAME AS applicantName,
+       T.CREATE_TIME AS createTime,
+       T.APPLICANT_ID AS applicantId,
+       T.LAST_UPDATE_TIME AS lastUpdateTime
+  FROM CISS_MATERIAL_BNBLP_HX_SQD T
+
+
+---originalSql---
+SELECT T.ID,
+       T.CODE,
+       T.SERVICE_STATION_NAME,
+       T.STATUS,
+       T.SERVICE_STATION_CODE,
+       T.SERVICE_STATION_ADDR,
+       T.SERVICE_STATION_OWNER,
+       T.BIN_RACK,
+       T.SERVICE_STATION_CONTACT,
+       T.LOGISTICS_COMPANY,
+       T.LOGISTICS_TYPE,
+       T.LOGISTICS_NO,
+       T.APPLICANT_NAME,
+       T.CREATE_TIME,
+       T.APPLICANT_ID,
+       T.LAST_UPDATE_TIME
+  FROM CISS_MATERIAL_BNBLP_HX_SQD T
